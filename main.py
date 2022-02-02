@@ -7,7 +7,7 @@ import numpy as np
 import time
 
 TARGET_SR = 8000
-""" rint('starting...')
+""" print('starting...')
 
 samplerate = 16000  
 duration = 1 # seconds
@@ -36,7 +36,7 @@ elif diff < 0:
     sample = sample[:8000]
 
 model = load_model('speechrec2.hdf5')
-classes = classes = ['down', 'go', 'left', 'no', 'off', 'on', 'right', 'stop', 'up', 'yes']
+classes = ['down', 'go', 'left', 'no', 'off', 'on', 'right', 'stop', 'up', 'yes']
 
 def predict(audio):
     prob=model.predict(audio.reshape(1, 8000,1))
