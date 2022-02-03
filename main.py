@@ -7,7 +7,7 @@ import numpy as np
 import time
 
 TARGET_SR = 8000
-""" print('starting...')
+"""print('starting...')
 
 samplerate = 16000  
 duration = 1 # seconds
